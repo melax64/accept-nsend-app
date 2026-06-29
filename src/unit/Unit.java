@@ -13,5 +13,5 @@ public abstract class Unit {
     }
 
     // jenis pengolahannya (kukus / goreng kalo dari restoran, dan frozen kalo dari pabrik)
-    public abstract String getPreparationType();
+    public abstract String getPreparationTypes();
 }

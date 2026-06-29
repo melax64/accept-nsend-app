@@ -5,9 +5,8 @@ public class Restaurant extends Unit {
         super("Restoran");
     }
 
-    // return cara pengolahan
     @Override
-    public String getPreparationType() {
+    public String getPreparationTypes() {
         return "Kukus / Goreng";
-    }
+    } 
 }

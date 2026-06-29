@@ -7,7 +7,7 @@ public class Factory extends Unit {
 
     // return cara pengolahan
     @Override
-    public String getPreparationType() {
+    public String getPreparationTypes() {
         return "Frozen";
     }
 }
