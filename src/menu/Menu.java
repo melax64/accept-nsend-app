@@ -1,7 +1,9 @@
 package menu;
 
-interface Menu {
+import java.util.List;
+
+public interface Menu {
     String getName();
     int getPrice();
-    String getDescription();
+    List<String> getAddons();
 }

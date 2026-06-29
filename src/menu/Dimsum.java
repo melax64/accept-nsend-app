@@ -1,5 +1,8 @@
 package menu;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Dimsum implements Menu {
     protected String name;
     protected int price;
@@ -20,7 +23,7 @@ public abstract class Dimsum implements Menu {
     }
 
     @Override
-    public String getDescription() {
-        return name;
+    public List<String> getAddons() {
+        return new ArrayList<>();
     }
 }
